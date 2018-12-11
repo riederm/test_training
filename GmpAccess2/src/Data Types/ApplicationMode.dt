@@ -1,0 +1,6 @@
+TYPE ApplicationMode : (
+		SIMULATION := 0,
+		TEST := 1,
+	 	PRODUCTION := 2
+	) ;
+END_TYPE
