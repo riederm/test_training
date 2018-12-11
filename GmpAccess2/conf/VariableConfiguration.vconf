@@ -1,0 +1,7 @@
+VAR_CONFIG
+
+	Values.val[0].value AT %ID24.1 : DWORD;
+	Values.val[1].value AT %ID24.2 : DWORD;
+	Values.val[2].value AT %ID24.3 : DWORD;
+
+END_VAR

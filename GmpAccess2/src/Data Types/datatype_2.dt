@@ -1,0 +1,7 @@
+TYPE datatype_2 :
+	STRUCT
+		FIELD	: INT := 0;
+		name	: BOOL;
+		name2	: INT;
+	END_STRUCT
+END_TYPE

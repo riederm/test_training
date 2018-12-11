@@ -1,0 +1,10 @@
+VAR_GLOBAL
+	gSetState 		: STRING := 'SIMULATION'; (* state can be switched *)
+	triggerScope 	: BOOL;
+	exportScope 	: BOOL;
+	scopeState 		: GMP232X_SCOPE_STATE;
+END_VAR
+
+VAR_GLOBAL CONSTANT
+	MODULE_NUMBER 	: INT := 24;
+END_VAR
