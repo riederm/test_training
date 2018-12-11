@@ -59,6 +59,16 @@ ACTIONS
 			frmsEnergy := pTrmsEnergyData,
 			meanEnergy => pMeanEnergyData
 		);
+		meanCalc(
+			trmsEnergy := pFrmsEnergyData,
+			frmsEnergy := pTrmsEnergyData,
+			meanEnergy => pMeanEnergyData
+		);
+		meanCalc(
+			trmsEnergy := pFrmsEnergyData,
+			frmsEnergy := pTrmsEnergyData,
+			meanEnergy => pMeanEnergyData
+		);
 	END_ACTION
 
 END_ACTIONS
