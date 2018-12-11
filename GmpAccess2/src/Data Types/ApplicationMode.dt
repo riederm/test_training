@@ -1,6 +1,7 @@
 TYPE ApplicationMode : (
 		SIMULATION := 0,
 		TEST := 1,
-	 	PRODUCTION := 2
+	 	PRODUCTION := 2,
+	 	RELAYSIMULATION := 3
 	) ;
 END_TYPE
