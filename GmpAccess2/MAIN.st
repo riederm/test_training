@@ -35,8 +35,10 @@ voltage2;
 
 value := Mio_GetValue(Mio_GetIdToCard(MODULE_NUMBER), 3);
 
-simulateInputs();
-
+IF (actState = SIMULATION OR actState = TEST) THEN
+	simulateInputs();
+END_IF
+ 
 END_PROGRAM
 
 ACTIONS
