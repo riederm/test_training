@@ -15,6 +15,10 @@ VAR
 	voltage1	: DWORD;
 	voltage2 AT %ID24.2	: DWORD; (* änderung *)
 END_VAR
+
+VAR CONSTANT 
+	VOLTAGE_CHANNEL : INT := 2;
+END_VAR 
 (* structures *)
 VAR
 	pFrmsEnergyData	: GMP232X_ENERGY; (* container for energy data *)
@@ -33,7 +37,7 @@ voltage1 := VoltageL1x_TRMS_HCC;
 (* call voltage2 to update the process image *)
 voltage2;
 
-value := Mio_GetValue(Mio_GetIdToCard(MODULE_NUMBER), 3);
+value := Mio_GetValue(Mio_GetIdToCard(MODULE_NUMBER), VOLTAGE_CHANNEL);
 
 simulateInputs();
 
