@@ -34,17 +34,17 @@
 		<link>
 			<name>libs/Mio_plc.plclib</name>
 			<type>2</type>
-			<locationURI>plclib:/GmpAccess2/libs/Mio_plc.lib</locationURI>
+			<locationURI>PLC_LIB_LOC/libs/Mio_plc.lib</locationURI>
 		</link>
 		<link>
 			<name>libs/Util_plc.plclib</name>
 			<type>2</type>
-			<locationURI>plclib:/GmpAccess2/libs/Util_plc.lib</locationURI>
+			<locationURI>PLC_LIB_LOC/libs/Util_plc.lib</locationURI>
 		</link>
 		<link>
 			<name>libs/gmp232x.plclib</name>
 			<type>2</type>
-			<locationURI>plclib:/GmpAccess2/libs/gmp232x.lib</locationURI>
+			<locationURI>PLC_LIB_LOC/libs/gmp232x.lib</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
