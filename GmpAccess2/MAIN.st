@@ -69,6 +69,8 @@ ACTIONS
 			frmsEnergy := pTrmsEnergyData,
 			meanEnergy => pMeanEnergyData
 		);
+		retVal := GMP232X_GETENERGY(MODULE_NUMBER, 0, ADR(pFrmsEnergyData), GMP232X_SOURCE_FRMS);
+		retVal := GMP232X_GETENERGY(MODULE_NUMBER, 0, ADR(pTrmsEnergyData), GMP232X_SOURCE_TRMS);
 	END_ACTION
 
 END_ACTIONS
